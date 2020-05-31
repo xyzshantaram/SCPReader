@@ -5,6 +5,7 @@ node + bash scp reader. made for uplime with love.
 0) clone the repo
 1) `$ chmod +x ./install.sh`
 2) `$ ./install.sh`
+3) `scp scp_number`
 
 ```
     Copyright (C) 2020 Siddharth S Singh
