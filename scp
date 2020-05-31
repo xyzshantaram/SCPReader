@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+node "/home/sid/SCPReader/main.js" "$1" | less
