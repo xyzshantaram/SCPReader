@@ -8,7 +8,7 @@ echo -e "if [[ \$1 =~ ^[0-9]+$ ]]; then " >> scpread
 echo -e "node \"$PWD/main.js\" \"\$1\" | less; else" >> scpread
 echo -e "echo -n \"Please enter a valid numerical SCP code.\"; fi" >> scpread
 echo -ne "Select directory to install SCPReader to. (example: /home/user/bin) (preferably, this should be included in your \$PATH): "; read -r scp_install_dir
-cp scp "$scp_install_dir"/scpread
+cp scpread "$scp_install_dir"/scpread
 chmod +x "$scp_install_dir"/scpread
 sleep 1
 echo
