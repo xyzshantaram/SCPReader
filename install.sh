@@ -5,7 +5,7 @@ rm scpread
 echo
 echo -e "#!/usr/bin/env bash" >> scpread
 echo -e "if [[ \$1 =~ ^[0-9]+$ ]]; then " >> scpread
-echo -e "node \"$PWD/main.js\" \"\$1\" | fmt --split-only | less; else" >> scpread
+echo -e "node \"$PWD/main.js\" \"\$1\" | fmt --split-only -w \"\$(tput cols)\" | less; else" >> scpread
 echo -e "echo -n \"Please enter a valid numerical SCP code.\"; fi" >> scpread
 echo -ne "Select directory to install SCPReader to. (example: /home/user/bin) (preferably, this should be included in your \$PATH): "; read -r scp_install_dir
 cp scpread "$scp_install_dir"/scpread
