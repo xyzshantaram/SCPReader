@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+\#!/usr/bin/env bash
 
 npm install
 rm scpread
@@ -13,4 +13,4 @@ chmod +x "$scp_install_dir"/scpread
 sleep 1
 echo
 echo -e "Install completed. Hopefully nothing broke. Enjoy stealthy SCP reading!\nPlease do not delete this directory until such time you wish to uninstall."\
-        "\nTo uninstall, simply issue 'rm '"$scp_install_dir"'/scpread' and delete this directory."
+        "\nTo uninstall, simply issue 'rm "$scp_install_dir"/scpread' and delete this directory."
