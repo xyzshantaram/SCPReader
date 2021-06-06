@@ -1,14 +1,31 @@
 # SCPReader
-node + bash scp reader. made for uplime with love.
+node + python scp reader. made for uplime with love.
 
-#### INSTRUCTIONS
+### Usage
 0) clone the repo
-1) `$ chmod +x ./install.sh`
-2) `$ ./install.sh`
-3) `scpread scp_number`
+1) `npm install`
+2) `./scpread.py <id>`
+3) To install, I recommend you symlink scpread.py into a directory that's on your PATH, like so:
+```sh
+    ln -s /path/to/this/repo/scpread.py /home/user/.local/bin/scpread
+```
+3) That way, to update, you can just do
+```sh
+    git pull
+```
+Inside `/path/to/this/repo` whenever there are updates.
+
+_**Note:**_ Make sure that `get.js` and `scpread.py` are always in the same directory.
+
+### TODO
+(Feel free to open a PR)
+
+[] Migrate entire thing to Python ([readabilipy](https://pypi.org/project/readabilipy/))
+
+### License
 
 ```
-    Copyright (C) 2020 Siddharth S Singh
+    Copyright (C) 2021 Siddharth S Singh
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
