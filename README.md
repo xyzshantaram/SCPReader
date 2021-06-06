@@ -9,7 +9,7 @@ node + python scp reader. made for uplime with love.
 ```sh
     ln -s /path/to/this/repo/scpread.py /home/user/.local/bin/scpread
 ```
-3) That way, to update, you can just do
+4) That way, to update, you can just do
 ```sh
     git pull
 ```
