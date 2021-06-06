@@ -20,8 +20,8 @@ _**Note:**_ Make sure that `get.js` and `scpread.py` are always in the same dire
 ### TODO
 (Feel free to open a PR)
 
-[] Migrate entire thing to Python ([readabilipy](https://pypi.org/project/readabilipy/))
-[] Add a way to detect when SCP doesn't exist
+- Migrate entire thing to Python ([readabilipy](https://pypi.org/project/readabilipy/))
+- Add a way to detect when SCP doesn't exist
 
 ### License
 
